@@ -1,0 +1,24 @@
+{
+  "port": 8080,
+  "source": "source",
+  "public": "public",
+  "db": {
+    "file": "db.json"
+  },
+  "upload": {
+    "path": "public/upload",
+    "file": "upload"
+  },
+  "mail": {
+    "subject": "music",
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "mishasharow@.mail.ru",
+        "pass": "534563"
+      }
+    }
+  }
+}
